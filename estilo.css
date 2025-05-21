@@ -12,9 +12,8 @@ body {
 
 
 .box {
-  max-width: 1440px;
-  width: 100%;
-  min-height: 100vh;
+  max-width: 1440px;  
+  height: 700px;
   background-color:#F5F3F0;
   display: flex;
   align-items: center;
@@ -77,21 +76,14 @@ body {
 }
 
 .texto a:hover {
-  background-color: #0699a6;
+  background-color: black;
 }
-
-
-.infor {
-  width: 100%;
+.infor{
   max-width: 1024px;
   display: flex;
   flex-direction: column;
-  gap: 100px;
-  margin: 0 auto;
-  padding: 70px 20px;
+  margin-left: 138px;
 }
-
-
 
 .bloco .content,
 .bloco .content1,
@@ -106,7 +98,7 @@ body {
 }
 
 .destaque {
-  font-weight: 700;
+  font-weight: 700px;
   font-size: 18px;
   line-height: 24px;
   letter-spacing: 2px;
@@ -134,3 +126,61 @@ font-size: 20px;
 line-height: 34px;
 letter-spacing: 0px;
 }
+.secao {
+    width: 635px;
+    height: 1024px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-left: 138px;
+    text-align: center;
+
+       
+}
+
+.principal {
+    width: 1240px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+    margin-left: 138px;
+    
+    
+    
+}
+.titulo{
+    font-weight: 900px;
+    font-size: 36px;
+    line-height: 46px;
+    letter-spacing: 0px;
+    color: #000000;
+}
+.texto p{
+   
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 34px;
+    letter-spacing: 0px;
+    color: #000000;
+
+}
+.destaque1 {
+  
+font-weight: 700;
+font-size: 18px;
+line-height: 24px;
+letter-spacing: 1px;
+text-transform: uppercase;
+color: #9E8C6C;
+}
+
+.destaque2 {
+  
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #000000;
+    }
