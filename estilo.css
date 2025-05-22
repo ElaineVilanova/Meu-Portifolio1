@@ -1,10 +1,9 @@
-/* RESET BÁSICO */
-* {
+*{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
 
+}
 /* BASE DO SITE */
 body {
   font-family: Arial, sans-serif;
@@ -83,9 +82,9 @@ body {
   line-height: 34px;
   letter-spacing: 0px;
   margin-bottom: 40px;
+  margin-top: -8px;
 
 }
-
 
 
 /* BOTÃO */
@@ -113,7 +112,13 @@ body {
   margin-bottom: 30px;
 }
 
-
+.divisor{
+ width: 71px;
+ height: 10px;
+ background-color: #0699A6;
+ margin: 60px 0;
+}
+  
 
 .bloco-esquerdo {
   max-width: 350px;
@@ -139,6 +144,7 @@ body {
   line-height: 34px;
   letter-spacing: 0px;
   margin-bottom: 30px;
+  
 }
 
 .content3{
@@ -150,6 +156,7 @@ body {
   font-size: 20px;
   line-height: 34px;
   color: #000;
+ 
 }
 
 .content p.negrito {
@@ -187,6 +194,9 @@ body {
   line-height: 24px;
   letter-spacing: 0px;
   text-align: right;
+  
+ 
+
 }
 
 /* RODAPÉ */
@@ -234,11 +244,12 @@ text-align: center;
 /* RESPONSIVIDADE BÁSICA */
 @media (max-width: 1220px) {
   .container {
-    flex-direction: column-reverse;
-     width: 100%;
-     text-align: center;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    
   }
-
+  
   .texto{
     max-width: 100%;
     text-align: center;
