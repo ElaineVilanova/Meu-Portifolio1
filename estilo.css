@@ -28,6 +28,8 @@ body {
   max-width: 1024px;
   display: flex;
   align-items: center;
+  gap: 40px;
+
  }
 
 /* IMAGEM DE PERFIL */
@@ -36,6 +38,7 @@ body {
   height: 333px;
   object-fit: cover;
   border-radius: 50%;
+  
 }
 
 /* TEXTO AO LADO DA IMAGEM */
@@ -68,9 +71,9 @@ body {
   letter-spacing: 0px;
 }
 
-.texto0 .titulo {
+.texto0, .texto1 .titulo {
   font-weight: 900;
-  font-size: 36px;
+  font-size: 30px;
   line-height: 46px;
   color: #000;
   letter-spacing: 0px;
